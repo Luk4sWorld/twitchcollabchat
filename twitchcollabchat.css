@@ -1,0 +1,19 @@
+
+.chat-container {
+	overflow-y: hidden;
+}
+
+.channel-list {
+	display:  inline-block;
+	background:  darkgreen;
+	color:  black;
+	border-radius:  5px;
+	border:  solid 2px black;
+	margin: 2px 1px;
+	padding: 0px 2px;
+}
+
+.chatbox div:hover {
+	background: darkred;
+	color: white;
+}

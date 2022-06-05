@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Multichat for Twitch.tv</title>
+        <!--script type="text/javascript"  src="tmi.min.js"></script-->
+        <script type="text/javascript"     src="https://github.com/tmijs/tmi.js/releases/download/v1.8.5/tmi.min.js"></script>
+        <script type="text/javascript"     src="twitchcollabchat.js"></script>
+        <!--script type="text/javascript"  src="twitchcollabchat.min.js"></script-->
+        <link rel="stylesheet"             href="twitchcollabchat.css"></link>
+    </head>
+    <body>
+    <div id="settings-container">
+        <input id="gobtn" type="button" value="GO!" style='width: 100%; display: block;'/>
+        <input id="make-config" type="text" style='width: 100%; display: block;'/>
+        <input id="fade" type="checkbox" checked="false"/><text>messages stay on screen</text>
+        <input id="badges" type="checkbox" checked="false"/><text>render badges</text>
+        </br>
+        <input id="emoji" type="checkbox" checked="true"/><text>render emojis</text>
+        <select id="styles" style='width: 100%; display: block;'/>
+        <input id="channel-input" type="text" placeholder="enter a channel name here an press the return key" style='width: 100%; display: inline-block;'/>
+        <div id="channel-box" class="chatbox"></div>
+    </div>
+    <div class="chat-container" id="chat-container" style='height: 100vh; width: 100vw;'></div>
+    </body>
+</html>
