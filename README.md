@@ -9,7 +9,7 @@ This project barely qualifies as a functioning prototype. Major changes might ha
 
 ## Usage  
 
-- in OBS, create a new browser source. The URL is [https://Luk4sWorld.github.io/twitchcollabchat/index.html](https://Luk4sWorld.github.io/twitch-collab-chat/index.html).  
+- in OBS, create a new browser source. The URL is [https://Luk4sWorld.github.io/twitchcollabchat/index.html](https://Luk4sWorld.github.io/twitchcollabchat/index.html).  
 - after adjusting the settings, make sure to press the `GO` button once to apply settings and confirm that everything works as intended.  
 - close the chat-view by clicking anywhere within the page, then copy the URL displayed in the box below the `GO` button inclusive the letters after the #-sign.  
 - replace the browser source URL with the URL you just copied and the settings will load on each reload.  
